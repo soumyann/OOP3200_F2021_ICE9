@@ -1,15 +1,19 @@
+/*
+        File : OOP3200_F2021_ICE 9
+        Created by: Tom Tsiliopoulos
+        Edited by: Soumya Narayanamandiram Narayananunni
+        Date: November 18, 2021
+ */
+
 package ca.durhamcollege;
 
 import org.jetbrains.annotations.NotNull;
 
 public class Vector2D
 {
-
-
     //Private instance variables
     private float x;
     private float y;
-
 
     //Public Properties(Mutators& Accessors)
     public float getX()
@@ -57,8 +61,6 @@ public class Vector2D
     }
 
     //Private Methods
-
-
     //Public Methods
 
     public void add(Vector2D rhs)
@@ -133,7 +135,6 @@ public class Vector2D
     {
         return "{" + x + ", " + y + "}";
     }
-
 
     //Static methods
 
